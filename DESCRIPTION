@@ -1,0 +1,33 @@
+Package: autoML
+Title: Automatic model selection using Bayesian optimization
+Version: 0.0.0.9001
+Authors@R: 
+    person(given = "Resul",
+           family = "Akay",
+           role = c("aut", "cre"),
+           email = "resulakay1@gmail.com")
+Description: This package aims to automatize the
+    hyperparameter selection of various machine learning algorithms using
+    Bayesian Optimization.
+License: Apache License (>= 2.0)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    ParamHelpers (>= 1.14),
+    caret (>= 6.0.86),
+    fastDummies (>= 1.6.2),
+    lhs (>= 1.1.1),
+    mlrMBO (>= 1.1.4),
+    plyr (>= 1.8.6),
+    smoof (>= 1.6.0.2),
+    xgboost (>= 1.2.0.1)
+RdMacros: lifecycle
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    testthat (>= 2.3.2),
+    lifecycle (>= 0.2.0),
+    DiceKriging (>= 1.5.6),
+    rgenoud (>= 5.8.3.0)
